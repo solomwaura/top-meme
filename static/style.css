@@ -1,0 +1,182 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(242, 246, 250);
+}
+
+.gallery img {
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 2px;
+    background-color: rgb(77, 182, 77);
+}
+
+.header {
+    display: flex;
+    margin: 0 auto;
+}
+
+.header .head {
+    margin: 0 auto;
+}
+
+.head img {
+    width: 150px;
+    height: 120px;
+}
+
+nav ul {
+    padding: 10px;
+}
+
+nav ul li {
+    padding: 10px;
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+nav ul li a:hover {
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+}
+
+.content {
+    display: flex;
+    margin: 0 auto;
+    /* position: absolute; */
+    align-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 200px));
+    width: 950px;
+    padding: 0 15px;
+    flex-wrap: wrap;
+}
+
+.front {
+    background-image: url(/static/memes.jpg);
+    height: 80vh;
+    margin: 0 auto;
+    width: 100%;
+    padding: 10px;
+}
+
+.top {
+    margin-top: 10px;
+    height: 50px;
+    padding: 40px;
+    width: 100%;
+}
+
+.top h2 {
+    margin-bottom: 0;
+    padding: 5px;
+}
+
+.front img {
+    width: 100%;
+    height: 80vh;
+}
+
+.content .gallery {
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.content .gallery:hover img {
+    margin: 0 auto;
+    padding: 5px;
+    width: 300px;
+    transition-duration: 800ms;
+}
+
+.gallery a {
+    text-decoration: none;
+    margin: 10px;
+    /* margin-left: 15px; */
+    /* position: absolute; */
+    color: white;
+    background-color: green;
+    padding: 5px;
+    /* display: none; */
+    border-radius: 5px;
+}
+
+
+/* .gallery:hover a {
+    color: white;
+    opacity: 1;
+    text-decoration: none;
+    margin: 10px auto;
+    margin-left: 15px;
+    position: absolute;
+    color: white;
+    background-color: green;
+    padding: 5px;
+    border-radius: 5px;
+} */
+
+footer {
+    padding: 20px;
+    background-color: rgb(72, 64, 185);
+}
+
+footer nav ul li a {
+    color: white;
+}
+
+@media(max-width:400px) {
+    body {
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+    }
+    .front {
+        width: 100%;
+        height: 500px;
+    }
+    .content {
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+    .gallery {
+        width: 100%;
+        height: 800px;
+    }
+    .gallery img {
+        width: 100%;
+        height: 800px;
+    }
+    .header {
+        display: block;
+    }
+    nav ul li {
+        margin: 0 auto;
+        text-align: center;
+    }
+    nav ul li a {
+        font-size: 30px;
+    }
+}
