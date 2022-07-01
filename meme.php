@@ -25,6 +25,7 @@
                         <ul>
                             <li><a href="index.php">Home</a></li>
                             <li><a href=".">Meme's</a></li>
+                            <li><a href="#">About Us</a></li>
                             
                             
                         </ul>
@@ -62,7 +63,7 @@
             <img src="uploads/<?php echo $row['file']; ?>" alt="meme">
             </div>
             
-            <a href="download.php?image=uploads/<?php echo $row['file']?>">Download</a> 
+            <a href="download.php?image=uploads/<?php echo $row['file']?>">Save</a> 
         </div>
             <?php
                 }
