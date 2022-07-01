@@ -139,7 +139,7 @@ nav ul li a:hover {
     
 }
 
-.content .gallery:hover img {
+/* .content .gallery:hover img {
     margin: 0 auto;
     padding: 5px;
     width: 100%;
@@ -147,7 +147,7 @@ nav ul li a:hover {
     margin-top: 10px;
     margin-bottom: 10px;
     transition-duration: 800ms;
-}
+} */
 
 .gallery a {
     text-decoration: none;
