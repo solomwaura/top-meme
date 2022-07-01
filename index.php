@@ -8,7 +8,10 @@
         <title>home</title>
     </head>
     <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css" integrity="sha384-eoTu3+HydHRBIjnCVwsFyCpUDZHZSFKEJD0mc3ZqSBSb6YhZzRHeiomAUWCstIWo" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <style>
+        
         @media(max-width:400px){
             body{
                 padding:10px;
@@ -66,7 +69,7 @@
                             <div>
                             <img src="uploads/<?php echo $row['file']; ?>" alt="meme">
                             </div>
-                            <a href="download.php?image=uploads/<?php echo $row['file']?>">Download</a>
+                            <a href="download.php?image=uploads/<?php echo $row['file']?>"><i class="fa-solid fa-arrow-down-to-arc"></i></a>
                         </div>
                 <?php        
                     
