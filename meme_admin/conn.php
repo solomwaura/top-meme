@@ -1,9 +1,23 @@
 <?php
 
-$username ="root";
-$server = "localhost";
-$password = "";
-$dbname = "meme";
+//Get Heroku ClearDB connection information
+$cleardb_url = parse_url(getenv("CLEARDB_DATABASE_URL"));
+$cleardb_server = $cleardb_url["host"];
+$cleardb_username = $cleardb_url["user"];
+$cleardb_password = $cleardb_url["pass"];
+$cleardb_db = substr($cleardb_url["path"],1);
+$active_group = 'default';
+$query_builder = TRUE;
+
+// Connect to DB
+$conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
+
+
+$username ="bbe94980ae7411";
+$server = "us-cdbr-east-06.cleardb.net";
+$password = "10d7f8f9";
+$dbname = "heroku_cea91a05f9525df";
+
 
 $conn = mysqli_connect($server,$username,$password,$dbname);
 
