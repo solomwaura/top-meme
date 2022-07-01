@@ -39,8 +39,8 @@ body {
 }
 
 .gallery img {
-    width: 250px;
-    height: 300px;
+    width: 90%;
+    height: 60%;
     margin: 10px;
 }
 
