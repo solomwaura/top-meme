@@ -70,7 +70,7 @@
                             <div>
                             <img src="uploads/<?php echo $row['file']; ?>" alt="meme">
                             </div>
-                            <a href="download.php?image=uploads/<?php echo $row['file']?>"><i class="fa-solid fa-arrow-down-to-arc"></i></a>
+                            <a href="download.php?image=uploads/<?php echo $row['file']?>"> <img src="static/down.pnp" alt="" width="50px"> </a>
                         </div>
                 <?php        
                     
