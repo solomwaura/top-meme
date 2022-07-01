@@ -9,7 +9,16 @@
     </head>
     <link rel="stylesheet" href="static/style.css">
     <style>
-   
+        @media(max-width:400px){
+            body{
+                padding:10px;
+                background-color:red;
+                
+            }
+            .content {
+                display:block;
+            }
+        }
     </style>
     <body>
         <header>
@@ -22,7 +31,7 @@
                         <ul>
                             <li><a href=".">Home</a></li>
                             <li><a href="meme.php">Meme's</a></li>
-                            
+                            <li><a href="#">About Us</a></li>
                             
                         </ul>
                     </nav>
@@ -30,15 +39,15 @@
                 <div class="head"></div>
             </div>
         </header>
-        
-        <div class="content">
-            <div class="front">
-           <img src="static/memes.jpg" alt="meme">
-            </div>
-            
-            <div class="top">
-            <h2>Featured meme's</h2>
+        <div class="top">
+
+                <h2>Featured meme's</h2>
+
         </div>
+        <div class="content">
+           
+            
+            
             <?php
                 include 'conn.php';
 
