@@ -1,6 +1,8 @@
 <html>
     <head>
         <title>meme</title>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2888641091946121"
+     crossorigin="anonymous"></script>
     </head>
     <link rel="stylesheet" href="static/style.css">
     <style>
