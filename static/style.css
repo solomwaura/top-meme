@@ -141,7 +141,9 @@ nav ul li a:hover {
     margin: 0 auto;
     padding: 5px;
     width: 100%;
-    height: 60%;
+    height: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
     transition-duration: 800ms;
 }
 
