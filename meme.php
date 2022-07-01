@@ -62,7 +62,7 @@
             <div>
             <img src="uploads/<?php echo $row['file']; ?>" alt="meme">
             </div>
-            
+            <p><i class="fa-light fa-arrow-down-left-and-arrow-up-right-to-center"></i></p>
             <a href="download.php?image=uploads/<?php echo $row['file']?>">Save</a> 
         </div>
             <?php

@@ -80,20 +80,21 @@ nav ul {
 nav ul li {
     padding: 10px;
     display: inline-block;
+    line-height: 40px;
     list-style: none;
 }
 
 nav ul li a {
     padding: 10px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 30px;
     color: black;
 }
 
 nav ul li a:hover {
     padding: 15px;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 30px;
     color: white;
     background-color: black;
 }

@@ -1,9 +1,9 @@
 <?php
 
-$username ="root";
-$server = "localhost";
-$password = "";
-$dbname = "meme";
+$username ="bbe94980ae7411";
+$server = "us-cdbr-east-06.cleardb.net";
+$password = "10d7f8f9";
+$dbname = "heroku_cea91a05f9525df";
 
 $conn = mysqli_connect($server,$username,$password,$dbname);
 
