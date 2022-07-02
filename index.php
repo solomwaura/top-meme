@@ -11,10 +11,7 @@
     </head>
     <link rel="stylesheet" href="static/style.css">
     <link rel="stylesheet" href="style2.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css" integrity="sha384-eoTu3+HydHRBIjnCVwsFyCpUDZHZSFKEJD0mc3ZqSBSb6YhZzRHeiomAUWCstIWo" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <style>
+   <style>
         
         @media(max-width:400px){
             body{
@@ -70,11 +67,11 @@
                     ?> 
                         <div class="gallery">
                            
-                            <div>
+                            <div class="meme">
                             <img src="uploads/<?php echo $row['file']; ?>" alt="meme">
                             </div>
-                            <p><i class="fa-light fa-arrow-down-left-and-arrow-up-right-to-center"></i></p>
-                            <a href="download.php?image=uploads/<?php echo $row['file']?>"> Save </a>
+                            <p class="icon"><a href="download.php?image=uploads/<?php echo $row['file']?>" class="download"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 1792 1792"><path d="M1344 1344q0-26-19-45t-45-19-45 19-19 45 19 45 45 19 45-19 19-45zm256 0q0-26-19-45t-45-19-45 19-19 45 19 45 45 19 45-19 19-45zm128-224v320q0 40-28 68t-68 28h-1472q-40 0-68-28t-28-68v-320q0-40 28-68t68-28h465l135 136q58 56 136 56t136-56l136-136h464q40 0 68 28t28 68zm-325-569q17 41-14 70l-448 448q-18 19-45 19t-45-19l-448-448q-31-29-14-70 17-39 59-39h256v-448q0-26 19-45t45-19h256q26 0 45 19t19 45v448h256q42 0 59 39z"/></svg></a></p>
+                            <!-- <a href="download.php?image=uploads/<?php echo $row['file']?>"> Save </a> -->
                         </div>
                 <?php        
                     
