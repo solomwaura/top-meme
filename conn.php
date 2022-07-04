@@ -46,7 +46,7 @@ if(isset($_POST['upload'])){
 
 }
 
-$query = "SELECT * FROM meme";
+$query = "SELECT * FROM meme ORDER BY id DESC";
 
 $result = $conn->query($query);
 
