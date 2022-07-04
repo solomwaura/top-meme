@@ -51,29 +51,7 @@ $query = "SELECT * FROM meme ORDER BY id DESC";
 $result = $conn->query($query);
 
 
-// if(isset($_GET['file_id'])) {
-//     $id = $_GET['file_id'];
+$myquery = "SELECT * FROM videos  ORDER BY id DESC";
 
-//     $sql = "SELECT *FROM memes WHERE id=$id ";
-
-//     $result = $conn->query($conn,$sql);
-
-//     if($result->num_rows>0){
-//         $file = mysqli_fetch_assoc($result);
-//         $filepath = 'uploads/' . $file['name'];
-    
-//         if(file_exists($filepath)) {
-//             header('Content-Description: File Transfer');
-//             header('Content-Type: application/octet-stream');
-//             header('Content-Disposition: attachment; filename=' . basename($filepath));
-//             header('Expires: 0');
-//             header('Cache-Control: must-revalidate');
-//             header('Pragma: public');
-//             header('Content-Length: ' . filesize('uploads/' . $file['name']));
-//             readfile('uploads/' . $file['name']);
-//         } 
-//     }
-
-    
-// }
+$output = $conn->query($myquery);
 ?>

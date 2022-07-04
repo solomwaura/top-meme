@@ -11,19 +11,7 @@
     </head>
     <link rel="stylesheet" href="static/style.css">
     <link rel="stylesheet" href="style2.css">
-   <style>
-        
-        @media(max-width:400px){
-            body{
-                padding:10px;
-                background-color:red;
-                
-            }
-            .content {
-                display:block;
-            }
-        }
-    </style>
+   
     <body>
         <header>
             <div class="header">
@@ -34,7 +22,7 @@
                     <nav>
                         <ul>
                             <li><a href=".">Home</a></li>
-                            <li><a href="meme.php">Meme's</a></li>
+                            <li><a href="videos.php">Video's</a></li>
                             <li><a href="#">About Us</a></li>
                             
                         </ul>
@@ -89,7 +77,7 @@
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="meme.php">Meme's</a></li>
+                <li><a href="videos.php">Video's</a></li>
                
                 
             </ul>
