@@ -83,6 +83,7 @@
 
                 
         </div>
+    <script src="static/index.js"></script>
     </body>
     <footer>
         <nav>
