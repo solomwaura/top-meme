@@ -127,6 +127,7 @@ footer nav ul li a {
 @media only screen and (min-device-width: 320px) and (max-device-width: 414px) {
 
     .content{
+        margin: 0 auto;
         display: block;
         background-color: rgb(169, 226, 226);
     }
@@ -145,9 +146,20 @@ footer nav ul li a {
        
       
     }
+
+    .icon svg{
+        color: white;
+        padding: 6px;
+        background-color: rgb(59, 216, 143);
+        border-radius: 40px;
+        /* position: absolute; */
+        margin-top: -60px;
+        margin-left: 15px;
+    }
     
     p .download{
         text-decoration: none;
+        font-size: 20px;
     }
 }
 
