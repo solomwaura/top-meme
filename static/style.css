@@ -123,9 +123,9 @@ footer {
 footer nav ul li a {
     color: white;
 }
+/* @media(max-width:400px){ */
+@media only screen and (min-device-width: 320px) and (max-device-width: 414px) {
 
-
-@media(max-width:400px){
     .content{
         display: block;
         background-color: rgb(169, 226, 226);
