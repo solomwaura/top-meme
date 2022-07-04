@@ -89,7 +89,10 @@ nav ul li a:hover {
     height: 350px;
 }
 
-
+.gallery video {
+    width:320px;
+    height:240px;
+}
 
 p .download{
     text-decoration: none;

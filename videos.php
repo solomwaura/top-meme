@@ -63,7 +63,7 @@
             <div class="gallery">
                            
                 <div class="meme">
-                    <video width="320" height="240" controls autoplay>
+                    <video controls>
                         <source src="videos/<?php echo $row['file']; ?>" type="video/mp4">
                         <!-- <source src="movie.ogg" type="video/ogg"> -->
                         Your browser does not support the video tag.
