@@ -58,8 +58,7 @@
                 
             ?>
             <br>
-            <br>
-            <br>
+          
             <div class="gallery">
                            
                 <div class="meme">
