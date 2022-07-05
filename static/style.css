@@ -131,13 +131,23 @@ footer {
 footer nav ul li a {
     color: white;
 }
-/* @media(max-width:400px){ */
+
+
+/* mobile responsive css */
+
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 414px) {
     body {
         background-color: rgb(169, 226, 226);
         padding:0;
         margin: 0;
     }
+    
+    .header {
+        display: block;
+        margin: 0 auto;
+    }
+
     .content{
         margin: 0 auto;
         width: 100%;
