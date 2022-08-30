@@ -10,7 +10,18 @@
      crossorigin="anonymous"></script>
     </head>
     <link rel="stylesheet" href="static/style.css">
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="css/styles2.css">
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    crossorigin="anonymous"
+  />
    
     <body>
         <header>
@@ -19,13 +30,28 @@
                     <img src="static/meme-logo.png" alt="Logo" >
                 </div>
                 <div class="head">
-                    <nav>
-                        <ul>
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                        <button class="navbar-toggler"
+                            type="button"
+                            data-toggle="collapse"
+                            target-data="#navbar"
+                            >
+                            <span class="navbar-toggler-icon"></span>
+
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbar">
+                            <div class="navbar-nav">
+                                <a href="." class="nav-item nav-link">Home</a>
+                                <a href="videos.php" class="nav-item nav-link">Videos</a>
+                                <a href="#" class="nav-item nav-link">About Us</a>
+                            </div>
+                        </div>
+                        <!-- <ul>
                             <li><a href=".">Home</a></li>
                             <li><a href="videos.php">Video's</a></li>
                             <li><a href="#">About Us</a></li>
                             
-                        </ul>
+                        </ul> -->
                     </nav>
                 </div>
                 <div class="head"></div>
@@ -71,6 +97,21 @@
 
                 
         </div>
+        <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"
+  ></script>
     <script src="static/index.js"></script>
     </body>
     <footer>
