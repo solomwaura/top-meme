@@ -13,7 +13,7 @@
         $response = [];
         $response['data'] = $my_array;
 
-        echo json_encode($response,JSON_PRETTY_PRINT);
+        json_encode($response,JSON_PRETTY_PRINT);
 
     } catch(PDOException $e){
         echo 'Database error.' .$e->getMessage();
