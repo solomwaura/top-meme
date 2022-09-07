@@ -62,7 +62,7 @@
                 <h2>Featured meme's</h2>
 
         </div>
-        <div class="content">
+        <div class="content container">
            
             
             
@@ -115,13 +115,6 @@
     <script src="static/index.js"></script>
     </body>
     <footer>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="videos.php">Video's</a></li>
-               
-                
-            </ul>
-        </nav>
+        
     </footer>
 </html>
